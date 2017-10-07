@@ -277,14 +277,14 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+  color: #076dd0;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
-  border-bottom-color: #222;
+  color: #076dd0;
+  border-bottom-color: #076dd0;
 }
 blockquote {
   margin: 0;
@@ -1471,11 +1471,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #076dd0;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #076dd0;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1692,7 +1692,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4aaa8e;
+  background: #8cff9e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2862,4 +2862,16 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+.post-body a {
+  border-bottom: none;
+}
+.post-body a:hover {
+  border-bottom: 1px solid #076dd0;
+}
+.menu .menu-item a {
+  color: #0684bd;
+}
+.menu .menu-item a:hover {
+  color: #076dd0;
 }
